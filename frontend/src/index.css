@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-forest: #174D32;
+  --color-leaf: #2F7D46;
+  --color-pale-green: #E7F2E8;
+  --color-cream: #FFF9EE;
+  --color-gold: #D6A23A;
+  --color-dark-text: #25352A;
+  --color-success: #237A48;
+  --color-warning: #B7791F;
+  --color-error: #B42318;
+  --color-info: #2764B7;
+}
+
+body {
+  font-family: 'Inter', 'Noto Sans Devanagari', system-ui, sans-serif;
+  color: #25352A;
+  background-color: #FFF9EE;
+  margin: 0;
+}
+
+* { box-sizing: border-box; }

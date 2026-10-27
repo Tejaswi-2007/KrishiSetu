@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+frontend/dist/
+backend/*.db
+
+# Uploads
+uploads/
+storage/
+
+# Logs
+*.log
+logs/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Secrets
+.env.*
+!.env.example
+
+# Python environments and caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local databases and backups
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+
+# Local uploads and generated storage
+storage/
+uploads/
+
+# Temporary debugging files
+auction-source.txt
+auctions-error.txt
+repair-context.txt
+scratch/

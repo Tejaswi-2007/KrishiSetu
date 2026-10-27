@@ -1,0 +1,46 @@
+{
+  "app_name": "Digi-Mandi",
+  "tagline": "Digital Agricultural Marketplace",
+  "nav": {
+    "home": "Home",
+    "listings": "Listings",
+    "my_listings": "My Listings",
+    "offers": "Offers",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout"
+  },
+  "actions": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "load_more": "Load More",
+    "back": "Back",
+    "confirm": "Confirm"
+  },
+  "status": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "no_results": "No results found",
+    "success": "Success!"
+  },
+  "units": {
+    "kg": "kg",
+    "quintal": "quintal",
+    "ton": "ton",
+    "per_kg": "per kg",
+    "per_quintal": "per quintal"
+  },
+  "roles": {
+    "farmer": "Farmer",
+    "buyer": "Buyer",
+    "admin": "Admin"
+  }
+}
