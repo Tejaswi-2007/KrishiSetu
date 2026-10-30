@@ -11,7 +11,7 @@ class UserRegister(BaseModel):
     password: str = Field(..., min_length=8, max_length=128)
     full_name: str = Field(..., min_length=2, max_length=255)
     phone: Optional[str] = Field(None, max_length=15)
-    role: str = Field(default="farmer", pattern="^(farmer|buyer|fpo_admin)$")
+    role: str = Field(default="farmer", pattern="^(farmer|buyer|trader|fpo_admin)$")
     language_pref: str = Field(default="en", pattern="^(en|mr)$")
 
     @field_validator("password")

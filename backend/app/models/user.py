@@ -12,6 +12,7 @@ class UserRole(str, enum.Enum):
     """User roles in the application."""
     FARMER = "farmer"
     BUYER = "buyer"
+    TRADER = "trader"
     FPO_ADMIN = "fpo_admin"
     ADMIN = "admin"
 

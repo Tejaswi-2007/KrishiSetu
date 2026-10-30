@@ -7,7 +7,7 @@ from fastapi import HTTPException, status
 
 from app.core.security import hash_password, verify_password, create_access_token
 from app.models.user import User, UserRole
-from app.models.profile import FarmerProfile, BuyerProfile, FPOProfile
+from app.models.profile import FarmerProfile, BuyerProfile, FPOProfile, TraderProfile
 from app.schemas.user import UserRegister, UserLogin
 
 
@@ -57,6 +57,9 @@ class AuthService:
             db.add(profile)
         elif data.role == "fpo_admin":
             profile = FPOProfile(user_id=user.id, org_name=data.full_name + " FPO")
+            db.add(profile)
+        elif data.role == "trader":
+            profile = TraderProfile(user_id=user.id)
             db.add(profile)
 
         db.commit()
